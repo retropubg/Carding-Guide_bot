@@ -3,13 +3,13 @@ from aiogram.enums import ParseMode
 from aiogram.client.default import DefaultBotProperties
 from aiogram.fsm.storage.memory import MemoryStorage
 
-BOT_TOKEN = "7688812737:AAEPRk0v3XrLnCm9Ar56YTcMPYClgo5IlKQ"
+BOT_TOKEN = "7020048572:AAG5bV9yhIk4DVw3ynUo-j9GHS743f9xVyA"
 bot = Bot(BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 storage = MemoryStorage()
 
 DATABASE_PATH = "data/database.db"
 
-ADMIN_USER_IDS = [6137450084, 6340890859]  # Using a tuple
+ADMIN_USER_IDS = [6699273462]  # Using a tuple
 ADMIN_USERNAMES = ["admin1", "admin2", "admin3"]
 
 
