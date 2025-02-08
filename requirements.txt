@@ -1,1 +1,3 @@
 aiogram~=3.7
+sqlalchemy
+sqlalchemy[asyncio]
